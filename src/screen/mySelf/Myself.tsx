@@ -1,4 +1,3 @@
-import Logo from "../../assets/icons/logo.png";
 import Lottie from "react-lottie";
 import animation from "../../assets/lottie/dev.json";
 
