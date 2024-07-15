@@ -74,9 +74,11 @@ export const Skills = () => {
     },
   ];
   return (
-    <div className="text-white ml-16 mr-16 h-screen">
-      <h1 className="text-5xl font-bold text-greetBlue">Skills</h1>
-      <div className="flex flex-row flex-wrap gap-20 mt-16 ">
+    <div className="text-white ml:2 lg:ml-16 mr-16 h-full xl:h-screen pt-10 xl:pt-0 pb-10 xl:pb-0">
+      <h1 className="text-3xl sm:text-5xl pl-8 lg:pl-0 font-bold text-greetBlue text-center lg:text-left">
+        Skills
+      </h1>
+      <div className="flex flex-row flex-wrap gap-20 mt-16 pl-8 lg:pl-0 pr-8 lg:pr-0 w-screen lg:w-full justify-center lg:justify-normal">
         {skills.map((skill) => {
           return (
             <div className="flex flex-col gap-2 mt-4 relative">
